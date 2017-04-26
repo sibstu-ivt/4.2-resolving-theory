@@ -71,7 +71,7 @@ class Page extends Component {
               <Input name="ta" value={state.ta} onChange={onChange} label={<span>t<sub>a</sub></span>} required/>
                 <Input name="tb" value={state.tb} onChange={onChange} label={<span>t<sub>b</sub></span>} required/>
               <div className="form-inline">
-                <label><span>t<sub>c,d,e</sub></span></label>
+                <div><label><span>t<sub>c,d,e</sub></span></label></div>
                 <Input name="tOther.0" value={state.tOther[0]} onChange={onChange} label="" required/>
                 <Input name="tOther.1" value={state.tOther[1]} onChange={onChange} label="" required/>
                 <Input name="tOther.2" value={state.tOther[2]} onChange={onChange} label="" required/>
